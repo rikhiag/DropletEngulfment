@@ -21,6 +21,6 @@
    pair_coeff  2  3         75.0        20.0
    pair_coeff  1  4         25.0        4.5   
    pair_coeff  2  4         75.0        20.0  
-   pair_coeff  3  4         60.0        4.5   
+   pair_coeff  3  4         70.0        4.5   
    pair_coeff  4   4        25.0        4.5
 
