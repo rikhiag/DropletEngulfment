@@ -1,0 +1,26 @@
+#  --Non Bonded Pair Interactions--
+#                   atomType1     atomType2     Parameter_List(a_ij, gamma_ij)
+     pair_coeff     1    1         30.0    4.5
+     pair_coeff     1    2         50.0     9 
+     pair_coeff     2    2         10.0    4.5
+
+#  --Bonded Interactions--
+#                   bondType       Parameter_List(k_bond, r_eq)
+     bond_coeff   1     64.0   0.5 
+
+#                   angleType      Parameter_List(k_theta, r_0)
+     angle_coeff  1     15.0  180.0
+#  --Non Bonded Pair Interactions--
+#                   atomType1     atomType2     Parameter_List(a_ij, gamma_ij)
+     pair_coeff     3   3        25    4.5
+
+
+#                      i                       j                   a_ij      gamma_ij
+
+   pair_coeff  1  3         25.0        4.5
+   pair_coeff  2  3         75.0        20.0
+   pair_coeff  1  4         25.0        4.5   
+   pair_coeff  2  4         75.0        20.0  
+   pair_coeff  3  4         60.0        4.5   
+   pair_coeff  4   4        25.0        4.5
+
